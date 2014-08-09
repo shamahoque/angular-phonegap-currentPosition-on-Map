@@ -16,7 +16,7 @@ angular.module('example').factory('CurrentPosition', function($rootScope) {
         start: function() {
             watchID = navigator.geolocation.watchPosition(function(position) {
                 console.log(position);
-                $rootScope.$broadcast('positionUpdate', position);
+                $rootScope.$broadcast('positionUpdate', position); //broadcast updated position to controller
             }, function(error) {
                 console.log(error);
             }, {
@@ -41,7 +41,7 @@ angular.module('example').factory('CurrentPosition', function($rootScope) {
             currentMarker = new google.maps.Marker({
                 map: map,
                 position: currentLatlng,
-                icon: 'img/bluedot.gif',
+                icon: 'bluedot.gif', //add your own marker image (sample provided)
                 optimized: false
             });
 
