@@ -1,17 +1,17 @@
-angular-phonegap-currentPosition-on-Map
+Angular Phonegap Live currentPosition on Map
 =======================================
 
 Angular service for showing live current position marker on Google Maps using Phonegap/Cordova
 
-Phonegap/Cordova Plugins used:
+<h4>Phonegap/Cordova Plugins used: </h4>
 - <a href="https://cordova.apache.org/docs/en/3.0.0/cordova_geolocation_geolocation.md.html">Geolocation </a> 
 
-Plugin Installation via Cordova CLI:
+<h4>Plugin Installation via Cordova CLI:</h4>
 $ cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
 
 
-TO-DO:
-1) Add Example
+<h4>TO-DO:</h4>
+1) Add Example<br/>
 2) Tests
 
 
