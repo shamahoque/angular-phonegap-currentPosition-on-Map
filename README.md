@@ -9,6 +9,8 @@ Angular service for showing live current position marker on Google Maps using Ph
 <h4>Plugin Installation via Cordova CLI:</h4>
 $ cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
 
+<h4>Other requirements</h4>
+<a href='https://github.com/marcuswestin/store.js/'>store.js</a> : It is a simple API for cross browser local storage. Used here for storing and accessing watchID.
 
 <h4>TO-DO:</h4>
 1) Add Example<br/>
