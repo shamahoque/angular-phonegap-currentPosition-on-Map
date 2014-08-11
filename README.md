@@ -14,5 +14,8 @@ $ cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-geol
 1) Add Example<br/>
 2) Tests
 
+<h4>License</h4>
+
+The MIT License
 
 
